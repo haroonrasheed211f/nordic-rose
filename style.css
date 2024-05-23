@@ -1,0 +1,327 @@
+/* ---------------------------------------------IMPORTING FONTS--------------------------------------------- */
+@font-face {
+  font-family: "newYork";
+  src: url("./assets/fonts/newyork/NewYork.ttf");
+}
+
+@font-face {
+    font-family: "SFmono";
+    src: url("./assets/fonts/sfmono/SFMonoRegular.otf");
+}
+
+@font-face {
+    font-family: "SFmonoBold";
+    src: url("./assets/fonts/sfmono/SFMonoBold.otf");
+}
+
+/* ---------------------------------------------BODY STYLING--------------------------------------------- */
+body {
+  font-family: "newYork", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* ---------------------------------------------NAV BAR STYLING--------------------------------------------- */
+nav {
+  width: 100%;
+  height: 4vh;
+  border-bottom: 0.1vh solid grey;
+  padding: 3.849vh 3.9993vw 3.849vh 3.9993vw;
+}
+nav h2 {
+  display: inline;
+  letter-spacing: 1vw;
+  font-weight: 500;
+}
+
+span > ul {
+  list-style: none;
+  display: inline;
+  margin-left: 39vw;
+}
+
+#navMenu > li {
+    list-style: none;
+    display: inline;
+    margin: 0vh 1vw;
+    letter-spacing: 0.1vw;
+}
+
+li a {
+    text-decoration: none !important;
+    color: black;
+    font-weight: 500;
+}
+
+#selectedLink{
+    padding-bottom: 5vh;
+    border-bottom: 0.2vh solid black;
+}
+/* ---------------------------------------NAV BAR STYLING ENDS HERE----------------------------------------- */
+
+/* ------------------------------------------HEADER DIV STYLING--------------------------------------------- */
+#headers{
+    text-align: center;
+    margin: 0 25vw;
+}
+
+#headers h1{
+    font-size: 3.3vw;
+    font-weight: 700;
+    margin: 5vh 0 3vh 0;
+}
+
+#headers p{
+    font-family: "SFmono" !important;
+    font-size: 1.25vw;
+    font-weight: 400;
+    text-align: center;
+
+}
+/* -----------------------------------HEADER DIV STYLING ENDS HERE----------------------------------------- */
+
+#mainImage{
+    width: 100%;
+    margin: 5vh 0 3vh 0;
+}
+
+hr {
+    width: 50%;
+    margin: 0 auto;
+    border-color: black;
+}
+/* -------------------------------------BLOG POST STAMP STYLING STARTS HERE-------------------------------------- */
+
+.blogContent{
+  display: flex;
+  margin: 2.3vh 25vw;
+
+
+}
+
+.blogContent > img{
+  border-radius: 50%;
+  width: 4.375vw;
+  height: 6.7vh;
+}
+
+#postStamps{
+  margin: -2.3vh 1vw;
+  height: 4vh;
+  width: 13.62vw;
+
+}
+
+#iconBoxes{
+  display: flex;
+  margin-left: 21vw;
+  
+}
+
+.iconBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0.1vh solid grey;
+  width: 4vw;
+  height: 4.23vh;
+}
+
+.iconBoxImages{
+  height: 2vh;
+  width: 1.25vw;
+  border-radius: 50%;
+}
+
+.stampText{
+  width: 13.62vw;
+}
+
+/* -------------------------------------BLOG POST STAMP STYLING ENDS HERE-------------------------------------- */
+
+.blogPostContainer{
+  margin: 5.582vh 25vw;
+}
+
+.blogPostContainer > p{
+  margin: 4vh 0px;
+}
+
+#maskedMan {
+  margin: 0 22.3vw;
+}
+
+#imageCaption {
+  font-family: "SFmono" !important;
+  font-weight: 500;
+  text-align: center;
+  justify-content: center;
+  margin: -3.5vw 0 0 0 !important;
+
+}
+
+#secondList{
+  padding-left: 1vw;
+  list-style:square;
+}
+#secondList > li {
+  margin-bottom: 2vw;
+}
+/* -------------------------------------BLOG POST STAMP STYLING ENDS HERE-------------------------------------- */
+
+#shareButtonsDivs {
+  display: flex;
+  margin: 0 25vw;
+  width: 44.9vw;
+  height: 6.4vh;
+  border: 0.1vh solid grey;
+
+}
+
+.IconsDiv > img, .IconsDiv > p {
+  display: inline;
+  
+}
+
+.IconsDiv {
+  display: flex;
+  border: 0.1vh solid grey;
+  padding-right: 2.9vw;
+  border-right: none !important;
+
+}
+
+.IconsDiv > img{
+  margin: 2.2vh 1vw 2.2vh 4.375vw;
+}
+
+.IconsDiv > p {
+  margin: 2.2vh 4.375vw 2.2vh 0vw  ;
+}
+
+#tagsContent{
+  text-decoration: underline;
+}
+
+#tagsContentPara{
+  font-family:"SFmono" !important;
+}
+
+#tagsHr{
+  width: 100%;
+  border: 0.1vw dotted;
+  border-style: none none dotted;
+  color: grey
+}
+/* -------------------------------------SHARE BUTTONS AND TAGS STYLING ENDS HERE-------------------------------------- */
+
+#hrWithEyes{
+  width: 100%;
+}
+
+#eyes{
+  width: 5%;
+  margin-top: -3vh;
+  margin-left: 47.5vw;
+}
+/* -------------------------------------HR WITH EYES STYLING ENDS HERE-------------------------------------- */
+#blogPostsHeading{
+  text-align: center;
+  margin-top: 4vh;
+}
+#blogPostMainContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0vh 16vw;
+}
+.postContainer{
+  width: 20vw;
+  text-align: center;
+  margin: 2vh 1vw;
+}
+
+.postContainer > p{
+  font-family: "SFmonoBold" !important;
+}
+/* -------------------------------------BLOG POSTS STYLING ENDS HERE-------------------------------------- */
+#signUpDiv {
+  border: 0.1vw solid black;
+  border-top: 0.5vw solid black;
+  width: 35vw;
+  height: 22vh;
+  margin: 7vh auto;
+  text-align: center;
+  padding: 4vh 3vw;
+}
+
+#signUpDiv > p{
+  font-family: "SFmono"!important;
+  margin: 1vh 3vw;
+}
+
+#inputDiv {
+  margin: 5vh 0;
+}
+
+#emailInput {
+  width: 20vw;
+  height: 4vh;
+  border-radius: 0px;
+  border: 0.1vw solid black;
+}
+
+#signUpButton {
+  color: white !important;
+  background-color: black;
+  border: none;
+  margin-left: -0.3vw;
+  width: 7vw;
+  height: 4.425vh;
+}
+/* -------------------------------------SIGNUP DIV STYLING ENDS HERE-------------------------------------- */
+#footerDiv {
+  width: 100%;
+  height: 45vh;
+  color: white;
+  background-color: black;
+  padding-top: 1.5vh;
+}
+
+#footerDiv > ul, #footerDiv > li{
+  list-style: none;
+  display: inline;
+  font-family: "SFmono";
+}
+
+#footerDiv > ul > li {
+  font-family: "SFmono";
+  display: inline;
+  margin: 0 1vw;
+  letter-spacing: 0.2vw;
+}
+
+#footerDiv > h1 {
+  text-align: center;
+  margin-top: 8vh;
+  font-weight: 500;
+  letter-spacing: 0.7vw;
+}
+
+#footerDiv > p {
+  text-align: center;
+  margin: 0.5vh 35vw;
+}
+
+#socialMediaLinks {
+  display: flex;
+  justify-content: space-around;
+  margin: 5vh 40vw;
+}
+
+#socialMediaLinks > a {
+  color: white;
+}
+
+
